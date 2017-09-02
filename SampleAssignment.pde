@@ -1,9 +1,3 @@
-/*
-int r = int(random(0,256));
-int g = int(random(0,256));
-int b = int(random(0,256));
-*/
-
 int r = 0;
 int g = 0;
 int b = 0;
