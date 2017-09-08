@@ -33,7 +33,6 @@ void draw()
 
 void squares()
 {
-  //2x2
   rect(85,65,10,10);
   rect(95,65,10,10);
   rect(85,75,10,10);
@@ -42,7 +41,7 @@ void squares()
 
 void mouseClicked() 
 {
-  r = int(random(0,256));
-  g = int(random(0,256));
-  b = int(random(0,256));
+  r = int(random(0,255));
+  g = int(random(0,255));
+  b = int(random(0,255));
 }
