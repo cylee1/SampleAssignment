@@ -1,7 +1,7 @@
 int r = 0;
 int g = 0;
 int b = 0;
-int color = 0;
+int x = 0;
 
 void setup()
 {
@@ -18,16 +18,16 @@ void draw()
           {
             if (g <= 44)
               {
-                color = 255;
+                x = 255;
               }
           }
       }
     else
       {
-         color = 0;
+         x = 0;
       }
   }
-  stroke(color);
+  stroke(x);
   squares();
 }
 
